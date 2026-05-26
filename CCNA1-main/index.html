@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Revision CCNA1 - Cisco Certified Network Associate 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Application de revision pour la certification CCNA1 (Cisco Certified Network Associate 1)">
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="header-row">
+        <h1><span id="header-title">CCNA1 Revision Suite</span> <span id="cisco-badge" class="cisco-badge">CISCO STYLE</span></h1>
+        <div class="lang-switch">
+            <label id="lang-label" for="languageSelect">Language</label>
+            <select id="languageSelect" aria-label="Language selector">
+                <option value="fr">FR</option>
+                <option value="en">EN</option>
+            </select>
+        </div>
+    </div>
+</header>
+<main>
+    <section id="setup">
+        <div id="setup-card">
+            <h2 id="setup-title">Configurer l'evaluation</h2>
+            <form id="quiz-setup-form">
+                <div class="form-group">
+                    <label id="label-source" for="questionSource">Module CCNA1 :</label>
+                    <select id="questionSource" data-dynamic-modules></select>
+                    <small id="source-hint" class="hint-text">Choisissez un module ou tous les modules</small>
+                </div>
+                <div class="form-group">
+                    <label id="label-num-questions" for="numQuestions">Nombre de questions :</label>
+                    <div style="display:flex; gap:1rem; align-items:center; flex-wrap:wrap;">
+                        <input type="number" id="numQuestions" min="1" max="130" value="15" required style="flex:2">
+                        <div id="questions-badge" class="questions-badge">-- questions</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="toggle-row" for="timedMode">
+                        <input type="checkbox" id="timedMode" checked>
+                        <span id="label-timed-mode">Mode examen CCNA (1h15 - chrono officiel)</span>
+                    </label>
+                    <small id="timed-mode-hint" class="hint-text">Simule les conditions reelles : arret automatique a 00:00</small>
+                </div>
+                <button id="start-quiz-btn" type="submit" class="btn-primary">Lancer le quiz interactif</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="questions">
+        <div class="quiz-card">
+            <div id="exam-status" class="exam-status"></div>
+            <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
+            <div id="quizz"></div>
+            <div class="button-group" id="nav-buttons">
+                <button id="prevBtn" class="btn-secondary" disabled>Precedent</button>
+                <button id="nextBtn" class="btn-primary">Valider et suivant</button>
+                <button id="finishBtn" class="btn-secondary" style="background:#2c3e66;">Terminer</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="corrections">
+        <div class="quiz-card">
+            <h2 id="corrections-title">Rapport detaille | Corrections CCNA</h2>
+            <div id="correct-answers"></div>
+            <button id="restartFromCorrection" class="btn-primary restart-btn">Nouveau quiz</button>
+        </div>
+    </section>
+</main>
+<footer>
+    <p id="footer-text">Cisco Networking Academy style - Revision CCNA1 | Simulation examen interactif</p>
+</footer>
+</body>
+</html>
