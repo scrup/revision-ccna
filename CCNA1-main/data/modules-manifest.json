@@ -1,0 +1,9 @@
+[
+  { "label": "Examen final", "path": "data/final.json" },
+  { "label": "Modules 1–3", "path": "data/modules-1-3.json" },
+  { "label": "Modules 4–7", "path": "data/modules-4-7.json" },
+  { "label": "Modules 8–10", "path": "data/modules-8-10.json" },
+  { "label": "Modules 11–13", "path": "data/modules-11-13.json" },
+  { "label": "Modules 14–15", "path": "data/modules-14-15.json" },
+  { "label": "Modules 16–17", "path": "data/modules-16-17.json" }
+]

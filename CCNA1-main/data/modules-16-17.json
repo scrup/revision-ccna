@@ -1,0 +1,838 @@
+[
+  {
+    "question": "Quel exemple de code malveillant serait qualifié de cheval de Troie ?",
+    "answers": [
+      "Un programme malveillant développé de manière à ressembler à un jeu vidéo",
+      "Un programme malveillant qui se greffe sur un programme légitime et infecte d’autres programmes lorsqu’il est lancé",
+      "Un programme malveillant qui nécessite l’intervention manuelle de l’utilisateur pour se propager entre des systèmes",
+      "Un programme malveillant qui se propage automatiquement d’un système à un autre en exploitant une faille de sécurité sur la cible"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 1
+  },
+  {
+    "question": "Quelle est la différence entre un virus et un vers ?",
+    "answers": [
+      "Les vers se répliquent automatiquement, ce qui n’est pas le cas des virus.",
+      "Les vers nécessitent un fichier hôte, ce qui n’est pas le cas des virus.",
+      "Les virus se répliquent automatiquement, ce qui n’est pas le cas des vers.",
+      "Les virus se cachent dans des programmes légitimes, ce qui n’est pas le cas des vers."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 2
+  },
+  {
+    "question": "Quel type d’attaque implique qu’un adversaire tente de recueillir des informations sur un réseau pour identifier des vulnérabilités?",
+    "answers": [
+      "Reconnaissance",
+      "DoS",
+      "Dictionnaire",
+      "man-in-the-middle"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 3
+  },
+  {
+    "question": "Quel est l’objectif de la fonction d’authentification de la sécurité réseau?",
+    "answers": [
+      "Demander aux utilisateurs de prouver leur identité",
+      "Déterminer les ressources accessibles par un utilisateur",
+      "Surveiller les activités d’un utilisateur",
+      "Fournir des questions d’authentification"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_081349.jpg",
+    "type": "image",
+    "id": 4
+  },
+  {
+    "question": "Quelle fonctionnalité du pare-feu permet de s’assurer que les paquets entrants sur un réseau sont des réponses légitimes à des requêtes provenant d’hôtes internes ?",
+    "answers": [
+      "Inspection dynamique de paquets",
+      "Filtrage des paquets",
+      "Filtrage URL",
+      "Filtrage des applications"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 5
+  },
+  {
+    "question": "Lorsqu’elle est appliquée à un routeur, quelle commande permet de limiter les attaques en force de mot de passe contre le routeur ?",
+    "answers": [
+      "service password-encryption",
+      "login block-for 60 attempts 5 within 60",
+      "banner motd $Max failed logins = 5$",
+      "exec-timeout 30"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 6
+  },
+  {
+    "question": "Quel est l’avantage d’utiliser SSH plutôt que Telnet ?",
+    "answers": [
+      "SSH assure des communications sécurisées aux hôtes d’accès.",
+      "SSH est plus simple à utiliser.",
+      "SSH prend en charge l’authentification pour les demandes de connexion.",
+      "SSH est plus rapide que Telnet."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 7
+  },
+  {
+    "question": "Quel est le rôle d’un système de protection contre les intrusions?",
+    "answers": [
+      "connexion d’informations globales sur les menaces aux périphériques de sécurité réseau Cisco",
+      "authentification et validation du trafic",
+      "Détecter les attaques en temps réel",
+      "filtrage des sites Web odieux"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 8
+  },
+  {
+    "question": "Un utilisateur redéfinit le réseau d’une petite entreprise et souhaite en garantir la sécurité à un prix raisonnable. L’utilisateur déploie un nouveau pare-feu capable de reconnaître les applications avec des fonctionnalités de détection des intrusions sur la connexion du FAI. Il installe un deuxième pare-feu pour séparer le réseau de l’entreprise du réseau public. En outre,il installe un système de détection d’intrusion sur le réseau interne de l’entreprise. Quelle approche l’utilisateur met-il en œuvre ?",
+    "answers": [
+      "basée sur les attaques",
+      "basée sur les risques",
+      "les données structurées",
+      "layered"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 9
+  },
+  {
+    "question": "Quelle est la description correcte de la redondance ?",
+    "answers": [
+      "conception d’un réseau utilisant plusieurs périphériques virtuels afin de s’assurer que l’ensemble du trafic utilise le meilleur chemin via l’interréseau",
+      "configuration d’un routeur avec une base de données complète d’adresses MAC permettant de s’assurer que toutes les trames sont acheminées vers la destination correcte",
+      "configuration d’un commutateur avec la sécurité appropriée permettant de s’assurer du filtrage de l’ensemble du trafic acheminé via une interface",
+      "conception d’un réseau utilisant plusieurs chemins entre les commutateurs afin de s’assurer de l’absence de point de défaillance unique"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 10
+  },
+  {
+    "question": "Un administrateur réseau met à niveau un réseau de petites entreprises afin d’accorder une priorité élevée au trafic d’applications en temps réel. Quels sont les deux types de services de réseau que l’administrateur de réseau essaie de mettre en place ? (Choisissez deux réponses.)",
+    "answers": [
+      "messagerie instantanée",
+      "SNMP",
+      "FTP",
+      "Vidéo",
+      "Voix"
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 11
+  },
+  {
+    "question": "Quel est l’objectif d’une petite entreprise utilisant un outil d’analyse de protocole pour capturer le trafic réseau sur les segments de réseau où l’entreprise envisage de mettre à niveau son réseau ?",
+    "answers": [
+      "pour documenter et analyser les besoins en trafic réseau sur chaque segment de réseau",
+      "pour identifier la source et la destination du trafic réseau local",
+      "pour établir une ligne de base pour l’analyse de la sécurité après la mise à niveau du réseau",
+      "pour capturer la bande passante requise pour la connexion Internet"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 12
+  },
+  {
+    "question": "Quelle méthode est utilisée pour envoyer un message ping spécifiant l’adresse source du ping?",
+    "answers": [
+      "Exécutez la commande ping sans spécifier d’adresse IP de destination.",
+      "Exécutez la commande ping sans commandes étendues.",
+      "Exécutez la commande ping après l’arrêt des interfaces inutiles.",
+      "Exécutez la commande ping à partir du mode de configuration de l’interface."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 13
+  },
+  {
+    "question": "Un ingénieur réseau analyse des rapports à partir d’un profil de référence du réseau récemment réalisé. Quelle situation décrit un éventuel problème de latence ?",
+    "answers": [
+      "L’augmentation des temps de réponse de la commande ping d’hôte à hôte",
+      "L’expiration au tronçon suivant suite à l’exécution d’une commande traceroute",
+      "Un changement de quantité de mémoire vive selon ce qu’indique le résultat de la commande show version",
+      "Un changement de bande passante selon ce qu’indique le résultat de la commande show interfaces"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 14
+  },
+  {
+    "question": "Quelle proposition relative aux indicateurs Cisco IOS de la requête ping est vraie ?",
+    "answers": [
+      "Le point d’exclamation (!) indique que la requête ping n’a pas abouti et que le périphérique peut avoir des difficultés à trouver un serveur DNS.",
+      "La lettre U indique qu’un routeur situé sur le chemin et ne possédant pas de route vers l’adresse de destination et que la requête ping n’a pas abouti.",
+      "Une combinaison du point (.) et du point d’exclamation (!) indique qu’un routeur situé sur le chemin et ne possédant pas de route vers l’adresse de destination a répondu par un message ICMP d’inaccessibilité.",
+      "Un point ( . ) indique que la requête ping a abouti mais que le temps de réponse a été anormalement long."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 15
+  },
+  {
+    "question": "Un utilisateur signale l’absence de connectivité réseau. Le technicien prend le contrôle de l’ordinateur de l’utilisateur et tente d’envoyer des requêtes ping aux autres ordinateurs du réseau mais les requêtes ping échouent. Le technicien envoie une requête ping à la passerelle par défaut mais elle échoue également. Quelles conclusions pouvez-vous tirer à coup sûr d’après les résultats du test ?",
+    "answers": [
+      "Rien ne peut être déterminé à coup sûr à ce stade.",
+      "La carte réseau du PC est défectueuse.",
+      "Le routeur associé au même réseau que la station de travail est en panne.",
+      "Le protocole IP/TCP n’est pas activé."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 16
+  },
+  {
+    "question": "Un technicien réseau exécute la commande C:\\> tracert -6 www.cisco.com sur un PC Windows. À quoi sert la commande -6 ?",
+    "answers": [
+      "Elle définit un délai de 6 millisecondes pour chaque répétition.",
+      "Elle envoie 6 sondes au cours de chaque période de durée de vie.",
+      "Elle oblige le chemin à utiliser IPv6.",
+      "Elle limite le chemin à 6 sauts."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 17
+  },
+  {
+    "question": "Une requête ping échoue quand elle est effectuée à partir du routeur R1 vers le routeur R2 directement connecté. L’administrateur réseau exécute alors la commande show cdp neighbors . Pourquoi l’administrateur réseau exécute-t-il cette commande si la requête ping a échoué entre les deux routeurs ?",
+    "answers": [
+      "L’administrateur réseau soupçonne la présence d’un virus car la commande ping a échoué.",
+      "L’administrateur réseau souhaite déterminer si la connectivité peut être établie depuis un réseau connecté non directement.",
+      "L’administrateur réseau veut vérifier la connectivité de la couche 2.",
+      "L’administrateur réseau veut vérifier l’adresse IP configurée sur le routeur R2."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 18
+  },
+  {
+    "question": "Un ingénieur réseau dépanne des problèmes de connectivité entre les routeurs et commutateurs interconnectés de Cisco. Quelle commande le technicien doit-il utiliser pour trouver les informations sur les adresses IP, le nom d’hôte et la version de l’IOS des périphériques réseau voisins ?",
+    "answers": [
+      "show interfaces",
+      "show cdp neighbors detail",
+      "show ip route",
+      "show version"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 19
+  },
+  {
+    "question": "Quelle information la commande show version permet-elle de vérifier sur un routeur Cisco ?",
+    "answers": [
+      "La version du protocole de routage activée",
+      "La valeur du registre de configuration",
+      "L’état opérationnel des interfaces série",
+      "La distance administrative utilisée pour accéder aux réseaux"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 20
+  },
+  {
+    "question": "Quelle commande un administrateur doit-il exécuter sur un routeur Cisco pour envoyer des messages de débogage aux lignes vty ?",
+    "answers": [
+      "logging synchronous",
+      "terminal monitor",
+      "logging console",
+      "logging buffered"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 21
+  },
+  {
+    "question": "En suivant une approche de dépannage structurée, un administrateur réseau a identifié un problème réseau après une conversation avec l’utilisateur. Quelle est la prochaine étape que l’administrateur devrait prendre?",
+    "answers": [
+      "Tester la théorie pour déterminer la cause",
+      "Vérifier le fonctionnement de l’ensemble du système",
+      "Établir un plan d’action visant à résoudre le problème",
+      "Établir une théorie sur les causes probables"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 22
+  },
+  {
+    "question": "Les utilisateurs se plaignent, car ils ne peuvent pas accéder à certains sites web sur Internet. Un administrateur parvient à envoyer une requête ping à un serveur web via son adresse IP, mais ne peut pas accéder site web sur un navigateur en utilisant son nom de domaine. Quel serait l’outil de dépannage le plus approprié pour déterminer l’origine du problème ?",
+    "answers": [
+      "tracert",
+      "ipconfig",
+      "nslookup",
+      "netstat"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 23
+  },
+  {
+    "question": "Un employé se plaint qu’un PC Windows ne puisse pas se connecter à Internet. Un technicien réseau exécute la commande ipconfig sur le PC et s’affiche une adresse IP 169.254.10.3. Quelle conclusion pouvez-vous tirer? (Choisissez deux réponses.)",
+    "answers": [
+      "Le réseau d’entreprise est mal configuré pour le routage dynamique.",
+      "L’adresse de la passerelle par défaut n’est pas configurée.",
+      "Le PC ne peut pas contacter un serveur DHCP.",
+      "L’adresse IP du serveur DHCP a été mal configurée.",
+      "Obtenir une adresse IP automatiquement"
+    ],
+    "correctAnswers": [
+      2,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 24
+  },
+  {
+    "question": "Reportez-vous à l’illustration. La documentation de base pour une petite entreprise comportait des statistiques ping aller-retour de 36/97/132 entre les hôtes H1 et H3. Aujourd’hui, l’administrateur réseau a vérifié la connectivité en pingant entre les hôtes H1 et H3, ce qui a donné lieu à un temps aller-retour de 1458/2390/6066. Qu’est-ce que cela indique à l’administrateur réseau?",
+    "answers": [
+      "Quelque chose provoque un délai entre les réseaux.",
+      "Les performances entre les réseaux sont dans les paramètres attendus.",
+      "La connectivité entre H1 et H3 est parfaite.",
+      "Quelque chose provoque des interférences entre H1 et R1.",
+      "H3 n’est pas connecté correctement au réseau."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_083252.jpg",
+    "type": "image",
+    "id": 25
+  },
+  {
+    "question": "Sur quelles interfaces ou quels ports la sécurité peut-elle être améliorée en configurant des délais d’attente d’exécution ? (Choisissez deux réponses.)",
+    "answers": [
+      "Ports de console",
+      "Interfaces de bouclage",
+      "Interfaces série",
+      "Ports vty",
+      "Interfaces Fast Ethernet"
+    ],
+    "correctAnswers": [
+      0,
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 26
+  },
+  {
+    "question": "Lors de la configuration de SSH sur un routeur pour implémenter une gestion réseau sécurisée, un ingénieur réseau a exécuté les commandes login local et transport input ssh de line vty. Quelles sont les trois actions de configuration supplémentaires à effectuer pour terminer la configuration SSH? (Choisissez trois réponses.)",
+    "answers": [
+      "Activez manuellement SSH après la génération des clés RSA.",
+      "Créez une base de données de nom d’utilisateur et de mot de passe locale valide.",
+      "Définissez les niveaux de privilèges d’utilisateur.",
+      "Générez les clés RSA asymétriques.",
+      "Accès CLI basé sur des rôles",
+      "Configurer le nom de domaine IP correct."
+    ],
+    "correctAnswers": [
+      1,
+      3,
+      5
+    ],
+    "image": null,
+    "type": "text",
+    "id": 27
+  },
+  {
+    "question": "Quelle est en pratique la meilleure façon d’atténuer les risques d’attaque de ver ?",
+    "answers": [
+      "Changer les mots de passe système tous les 30 jours",
+      "S’assurer que les définitions de virus les plus récentes sont installées sur tous les systèmes",
+      "S’assurer que AAA est configuré sur le réseau",
+      "Télécharger des mises à jour de sécurité distribuées par le fournisseur du système d’exploitation et appliquer les correctifs à tous les systèmes vulnérables"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 28
+  },
+  {
+    "question": "Quelle affirmation décrit les commandes ping et tracert ?",
+    "answers": [
+      "Tracert indique chaque saut, tandis que ping indique uniquement une réponse de destination.",
+      "La commande ping indique si la transmission a abouti, ce que ne fait pas la commande tracert .",
+      "Les deux commandes ping et tracert peuvent afficher les résultats sous forme graphique.",
+      "La commande tracert utilise les adresses IP, ce que ne fait pas la commande ping ."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 29
+  },
+  {
+    "question": "Un technicien doit documenter les configurations actuelles de tous les périphériques réseau d’une université, y compris ceux des bâtiments hors site. Quel est le protocole le plus performant pour accéder en toute sécurité aux périphériques réseau ?",
+    "answers": [
+      "Telnet",
+      "HTTP",
+      "SSH",
+      "FTP"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 30
+  },
+  {
+    "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question. Quelle commande doit être configurée sur le routeur pour terminer la configuration SSH?",
+    "answers": [
+      "enable secret class",
+      "transport input ssh",
+      "ip domain-name cisco.com",
+      "service password-encryption"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-01-12_233716.jpg",
+    "type": "image",
+    "id": 31
+  },
+  {
+    "question": "Un administrateur décide d’utiliser «Elizabeth» comme mot de passe sur un routeur nouvellement installé. Quelle déclaration s’applique au choix du mot de passe?",
+    "answers": [
+      "Il est fort car il utilise un minimum de 10 chiffres, lettres et caractères spéciaux.",
+      "Il est faible car c’est un mot qui se trouve facilement dans le dictionnaire.",
+      "Il est faible car il utilise des renseignements personnels facilement trouvés.",
+      "Il est fort parce qu’il utilise une phrase secrète."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 32
+  },
+  {
+    "question": "Seuls les employés connectés aux interfaces IPv6 ont de la difficulté à se connecter à des réseaux distants. L’analyste souhaite vérifier que le routage IPv6 a été activé. Quelle est la meilleure commande à utiliser pour accomplir la tâche ?",
+    "answers": [
+      "show interfaces",
+      "show ip nat translations",
+      "copy running-config startup-config",
+      "show running-config"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 33
+  },
+  {
+    "question": "Quelle fonctionnalité de SSH le rend plus sécurisé que Telnet pour une connexion de gestion de périphériques?",
+    "answers": [
+      "informations de connexion et chiffrement des données",
+      "exigences plus strictes en matière de mot de passe",
+      "connexion aléatoire à un port unique",
+      "confidentialité avec IPSec"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 34
+  },
+  {
+    "question": "Reliez le type d’information de sécurité au scénario correspondant. (Les options ne sont pas toutes utilisées.)",
+    "answers": [
+      "homme-au-milieu",
+      "extraction des paramètres de sécurité",
+      "Déni de service",
+      "nom d’utilisateur énumération"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-01-12_232930.jpg",
+    "type": "image",
+    "id": 35
+  },
+  {
+    "question": "Un administrateur décide d’utiliser « 5$7*4#033! » comme mot de passe sur un routeur nouvellement installé. Quelle déclaration s’applique au choix du mot de passe?",
+    "answers": [
+      "Il est faible car il s’agit souvent du mot de passe par défaut sur les nouveaux appareils.",
+      "Il est fort car il contient 10 chiffres et caractères spéciaux.",
+      "Il est faible car il utilise des renseignements personnels facilement trouvés.",
+      "Il est fort car il utilise un minimum de 10 chiffres, lettres et caractères spéciaux."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 36
+  },
+  {
+    "question": "Quelle commande doit être utilisée sur un routeur ou un commutateur Cisco pour permettre aux messages de journal de s’afficher sur les sessions connectées à distance via Telnet ou SSH ?",
+    "answers": [
+      "show running-config​",
+      "logging synchronous",
+      "terminal monitor",
+      "debug all"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 37
+  },
+  {
+    "question": "Quel service réseau attribue automatiquement des adresses IP aux périphériques du réseau ?",
+    "answers": [
+      "Telnet",
+      "DNS",
+      "DHCP",
+      "traceroute"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 38
+  },
+  {
+    "question": "Reportez-vous à l’illustration. L’hôte H3 rencontre des difficultés pour communiquer avec l’hôte H1. L’administrateur réseau soupçonne qu’il existe un problème avec la station de travail H3 et veut prouver qu’il n’y a pas de problème avec la configuration R2. Quel outil l’administrateur réseau pourrait-il utiliser sur le routeur R2 pour prouver qu’il existe une communication pour héberger H1 à partir de l’interface sur R2, qui est l’interface utilisée par H3 lors de la communication avec des réseaux distants ?",
+    "answers": [
+      "traceroute",
+      "show cdp neighbors",
+      "Telnet",
+      "Extensions de la commande ping"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-01-12_233424.jpg",
+    "type": "image",
+    "id": 39
+  },
+  {
+    "question": "À quelle fin un administrateur réseau utilise-t-il l’utilitaire tracert ?",
+    "answers": [
+      "Pour vérifier les informations relatives à un nom DNS sur le serveur DNS",
+      "Pour afficher l’adresse IP, la passerelle par défaut et l’adresse du serveur DNS pour un PC",
+      "Pour déterminer les connexions TCP actives sur un PC",
+      "Pour identifier où un paquet a été perdu ou retardé sur un réseau"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 40
+  },
+  {
+    "question": "Quelle commande un administrateur peut-il exécuter pour déterminer quelle interface un routeur utilisera pour atteindre les réseaux distants?",
+    "answers": [
+      "show interfaces",
+      "show arp",
+      "show ip route",
+      "show protocols"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 41
+  },
+  {
+    "question": "Examinez l’illustration. Un administrateur teste la connectivité à un périphérique distant avec l’adresse IP 10.1.1.1. Qu’indique le résultat de cette commande ?",
+    "answers": [
+      "Un paquet ping est bloqué par un dispositif de sécurité sur le chemin.",
+      "Un routeur situé sur le chemin ne possède pas de route vers la destination.",
+      "Le délai de connexion a expiré pendant l’attente de la réponse du périphérique distant.",
+      "La connectivité au périphérique distant est fonctionnelle."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-01-12_233557.jpg",
+    "type": "image",
+    "id": 42
+  },
+  {
+    "question": "Les étudiants connectés au même commutateur ont des temps de réponse plus lents que la normale. L’administrateur soupçonne un problème de paramètre duplex. Quelle est la meilleure commande à utiliser pour accomplir la tâche?",
+    "answers": [
+      "show interfaces",
+      "show ip nat translations",
+      "copy running-config startup-config",
+      "ipconfig getifaddr en0"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 43
+  },
+  {
+    "question": "Un administrateur décide d’utiliser «Robert» comme mot de passe sur un routeur nouvellement installé. Quelle déclaration s’applique au choix du mot de passe?",
+    "answers": [
+      "Il est faible car il utilise des renseignements personnels facilement trouvés.",
+      "Il est fort parce qu’il utilise une phrase secrète.",
+      "Il est fort car il utilise un minimum de 10 chiffres, lettres et caractères spéciaux.",
+      "Il est fort car il utilise un minimum de 10 chiffres, lettres et caractères spéciaux."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 44
+  },
+  {
+    "question": "Un étudiant souhaite enregistrer une configuration de routeur sur NVRAM. Quelle est la meilleure commande à utiliser pour accomplir la tâche?",
+    "answers": [
+      "show ip route",
+      "show interfaces",
+      "copy running-config startup-config",
+      "show ip nat translations"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 45
+  },
+  {
+    "question": "Un technicien réseau dépanne un problème et doit vérifier les adresses IP de toutes les interfaces d’un routeur. Quelle est la meilleure commande à utiliser pour accomplir la tâche?",
+    "answers": [
+      "show ip interface brief",
+      "nslookup",
+      "show ip route",
+      "ipconfig getifaddr en0"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 46
+  },
+  {
+    "question": "Un utilisateur souhaite connaître l’adresse IP du PC. Quelle est la meilleure commande à utiliser pour accomplir la tâche?",
+    "answers": [
+      "ipconfig",
+      "show ip nat translations",
+      "copy running-config startup-config",
+      "show interfaces"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 47
+  },
+  {
+    "question": "Un administrateur décide d’utiliser « 12345678! » comme mot de passe sur un routeur nouvellement installé. Quelle déclaration s’applique au choix du mot de passe?",
+    "answers": [
+      "Il est fort car il utilise un minimum de 10 chiffres, lettres et caractères spéciaux.",
+      "Il est fort parce qu’il utilise une phrase secrète.",
+      "Il est faible parce qu’il utilise une série de chiffres ou de lettres.",
+      "Il est faible car c’est un mot qui se trouve facilement dans le dictionnaire."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 48
+  },
+  {
+    "question": "Un administrateur dépanne les problèmes de connectivité et doit déterminer l’adresse IP d’un site Web. Quelle est la meilleure commande à utiliser pour accomplir la tâche?",
+    "answers": [
+      "show ipv6 route",
+      "nslookup",
+      "copy startup-config running-config",
+      "show ipv6 interface"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 49
+  },
+  {
+    "question": "Un administrateur décide d’utiliser « PR3s!d7n&0 » comme mot de passe sur un routeur nouvellement installé. Quelle déclaration s’applique au choix du mot de passe?",
+    "answers": [
+      "Il est faible car c’est un mot qui se trouve facilement dans le dictionnaire.",
+      "Il est faible car il utilise des renseignements personnels facilement trouvés.",
+      "Il est fort car il utilise un minimum de 10 chiffres, lettres et caractères spéciaux.",
+      "Il est faible car il s’agit souvent du mot de passe par défaut sur les nouveaux appareils."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 50
+  },
+  {
+    "question": "Un administrateur décide d’utiliser « WhatareYouWaiting4 » comme un mot de passe sur un routeur nouvellement installé. Quelle déclaration s’applique au choix du mot de passe?",
+    "answers": [
+      "Il est fort parce qu’il utilise une phrase secrète.",
+      "Il est faible car il utilise des renseignements personnels facilement trouvés.",
+      "Il est faible car c’est un mot qui se trouve facilement dans le dictionnaire.",
+      "Il est faible car il s’agit souvent du mot de passe par défaut sur les nouveaux appareils."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 51
+  },
+  {
+    "question": "Un administrateur décide d’utiliser «admin» comme mot de passe sur un routeur nouvellement installé. Quelle déclaration s’applique au choix du mot de passe?",
+    "answers": [
+      "Il est fort car il utilise un minimum de 10 chiffres, lettres et caractères spéciaux.",
+      "Il est fort parce qu’il utilise une phrase secrète.",
+      "Il est faible car il s’agit souvent du mot de passe par défaut sur les nouveaux appareils.",
+      "Il est fort car il utilise un minimum de 10 chiffres, lettres et caractères spéciaux."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 52
+  },
+  {
+    "question": "Un administrateur décide d’utiliser «mot de passe» comme mot de passe sur un routeur nouvellement installé. Quelle déclaration s’applique au choix du mot de passe?",
+    "answers": [
+      "Il est fort parce qu’il utilise une phrase secrète.",
+      "C’est un mot de passe couramment utilisé",
+      "Il est faible car c’est un mot qui se trouve facilement dans le dictionnaire.",
+      "Il est fort car il utilise un minimum de 10 chiffres, lettres et caractères spéciaux."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 53
+  },
+  {
+    "question": "Un technicien de support doit connaître l’adresse IP de l’interface sans fil sur un MAC. Quelle est la meilleure commande à utiliser pour accomplir la tâche?",
+    "answers": [
+      "copy running-config startup-config",
+      "show ip nat translations",
+      "ipconfig getifaddr en0",
+      "show interfaces"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 54
+  },
+  {
+    "question": "Un administrateur décide d’utiliser «Feb121978» comme mot de passe sur un routeur nouvellement installé. Quelle déclaration s’applique au choix du mot de passe?",
+    "answers": [
+      "Il est fort parce qu’il utilise une phrase secrète.",
+      "Il est fort car il utilise un minimum de 10 chiffres, lettres et caractères spéciaux.",
+      "Il est faible car il utilise des renseignements personnels facilement trouvés.",
+      "Il est faible car c’est un mot qui se trouve facilement dans le dictionnaire."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 55
+  }
+]

@@ -1,0 +1,987 @@
+[
+  {
+    "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question. Quel port Switch0 utilise-t-il pour envoyer des trames à l’hôte avec l’adresse IPv4 10.1.1.5?",
+    "answers": [
+      "Fa0/1",
+      "Fa0/5",
+      "FA/9",
+      "Fa0/11"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_052544.jpg",
+    "type": "image",
+    "id": 1
+  },
+  {
+    "question": "Quelles sont deux caractéristiques d’un câble à fibre optique ? (Choisissez deux propositions.)",
+    "answers": [
+      "Il n’est pas affecté par les perturbations électromagnétiques ou radioélectriques.",
+      "Il associe la technique de l’annulation des champs magnétiques, du blindage et des brins torsadés pour protéger les données.",
+      "Il est plus cher qu’un câble à paires torsadées non blindées.",
+      "Chaque paire de fils est enveloppée dans une feuille métallique.",
+      "Il contient généralement 4 paires de brins en fibre optique."
+    ],
+    "correctAnswers": [
+      0,
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 2
+  },
+  {
+    "question": "Avec l’utilisation de fils de cuivre à paires torsadées non blindées dans un réseau, quelles sont les causes de la diaphonie dans les paires de câbles?",
+    "answers": [
+      "le champ magnétique autour des paires adjacentes de fil",
+      "le reflet de l’onde électrique de retour de l’extrémité éloignée du câble",
+      "l’utilisation de fils tressés pour protéger les paires de fils adjacentes",
+      "la collision causée par deux nœuds essayant d’utiliser le média simultanément"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 3
+  },
+  {
+    "question": "Outre la longueur de câble, quels sont les deux autres facteurs qui peuvent parasiter la communication sur un câble à paires torsadées non blindées ? (Choisissez deux propositions.)",
+    "answers": [
+      "Bande passante",
+      "Taille du réseau",
+      "Interférence électromagnétique",
+      "Technique de modulation de signaux",
+      "Interférence"
+    ],
+    "correctAnswers": [
+      2,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 4
+  },
+  {
+    "question": "Reportez-vous au graphique. Quel type de câblage est-il affiché?",
+    "answers": [
+      "STP",
+      "Câblage coaxial",
+      "UTP",
+      "Fibre optique"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_114623.jpg",
+    "type": "image",
+    "id": 5
+  },
+  {
+    "question": "Quels appareils perturbent généralement les réseaux sans fil ? (Choisissez deux réponses.)",
+    "answers": [
+      "Téléphones sans fil",
+      "Ampoules incandescentes",
+      "Home cinema",
+      "Disques durs externes",
+      "Micro-ondes",
+      "Lecteurs Blu-ray"
+    ],
+    "correctAnswers": [
+      0,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 6
+  },
+  {
+    "question": "Quelles sont les deux déclarations qui décrivent les services fournis par la couche de liaison de données? (Choisissez deux réponses.)",
+    "answers": [
+      "Il regroupe plusieurs PDU de couche 3 dans un format de trame compatible avec l’interface réseau.",
+      "Il fournit une livraison fiable grâce à l’établissement de liens et au contrôle de flux.",
+      "Il définit le schéma d’adressage de livraison de bout en bout.",
+      "Il gère l’accès des trames au support réseau.",
+      "Il maintient le chemin entre les périphériques source et destination pendant la transmission des données.",
+      "Il garantit que les données d’application seront transmises en fonction de l’ordre de priorité."
+    ],
+    "correctAnswers": [
+      0,
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 7
+  },
+  {
+    "question": "Que contient le code de fin de la trame liaison de données ?",
+    "answers": [
+      "adresse logique",
+      "adresse physique",
+      "Détection des erreurs",
+      "Données"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 8
+  },
+  {
+    "question": "Une équipe réseau compare les topologies physiques de réseau étendu pour connecter des sites distants au siège de l’entreprise. Quelle topologie offre une haute disponibilité et connecte certains, mais pas tous les sites distants ?",
+    "answers": [
+      "Point à point",
+      "maillage partiel",
+      "Hub and Spoke",
+      "À maillage"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 9
+  },
+  {
+    "question": "Quel type de communication support ne nécessite pas d’arbitrage des supports dans la couche de liaison de données?",
+    "answers": [
+      "déterministe",
+      "semi-duplex",
+      "Accès contrôlé",
+      "duplex intégral"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 10
+  },
+  {
+    "question": "Quelle proposition décrit une topologie en étoile étendue ?",
+    "answers": [
+      "Tous les périphériques finaux et intermédiaires sont connectés les uns aux autres, en chaîne.",
+      "Les périphériques finaux se connectent à un périphérique intermédiaire qui à son tour se connecte à des périphériques intermédiaires centraux.",
+      "Chaque périphérique terminal est connecté à son voisin respectif via un périphérique intermédiaire.",
+      "Les périphériques finaux sont connectés par un bus, et chaque bus se connecte à un périphérique intermédiaire central."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 11
+  },
+  {
+    "question": "Quelle proposition constitue une caractéristique de la sous-couche de contrôle de liaison logique ?",
+    "answers": [
+      "Elle offre la délimitation des données en fonction des exigences de signalisation physique du support.",
+      "Elle définit les processus logiciels qui fournissent des services à la couche physique.",
+      "Elle fournit l’adressage logique requis qui identifie le périphérique.",
+      "Elle place des informations dans la trame pour que plusieurs protocoles de couche 3 puissent utiliser la même interface réseau et les mêmes supports."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 12
+  },
+  {
+    "question": "Quelles sont les trois façons dont le contrôle d’accès aux supports est utilisé dans la mise en réseau? (Choisissez trois réponses.)",
+    "answers": [
+      "Le contrôle d’accès aux supports permet de placer les trames de données sur le support.",
+      "802.11 utilise la CSMA/CD.",
+      "Ethernet utilise CSMA/CD.",
+      "Accès avec gestion des conflits est également connu sous le nom de déterministe.",
+      "Les protocoles opérant au niveau de la couche liaison de données définissent les règles d’accès aux différents supports.",
+      "Les réseaux à accès contrôlé ont des performances réduites en raison des collisions de données."
+    ],
+    "correctAnswers": [
+      0,
+      2,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 13
+  },
+  {
+    "question": "Quel type de règle de communication décrit le mieux CSMA/CD ?",
+    "answers": [
+      "Codage des messages",
+      "Encapsulation des messages",
+      "Méthode d’accès",
+      "Contrôle de flux"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 14
+  },
+  {
+    "question": "Quelles sont les trois parties de base communes à tous les types de trames pris en charge par la couche de liaison de données? (Choisissez trois propositions.)",
+    "answers": [
+      "Valeur CRC",
+      "données",
+      "MTU size (Taille de MTU)",
+      "en-tête",
+      "queue de bande",
+      "Champ Type"
+    ],
+    "correctAnswers": [
+      1,
+      3,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 15
+  },
+  {
+    "question": "Qu’est-ce que la fonction auto-MDIX sur un commutateur ?",
+    "answers": [
+      "La configuration automatique d’une communication bidirectionnelle simultanée via la fibre optique ou un câble Ethernet cuivre unique",
+      "La configuration automatique d’une interface pour une connexion par câble Ethernet droit ou de croisement",
+      "La configuration automatique d’une interface pour un fonctionnement à 10/100/1 000 Mbit/s",
+      "La possibilité d’activer/de désactiver une interface de commutateur en conséquence si une connexion active est détectée"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 16
+  },
+  {
+    "question": "Examinez l’illustration. Quelle est l’adresse MAC de destination de la trame Ethernet quand elle quitte le serveur Web si la destination finale est le PC1 ?",
+    "answers": [
+      "00-60-2F-3A-07-AA",
+      "00-60-2F-3A-07-DD",
+      "00-60-2F-3A-07-CC",
+      "00-60-2F-3A-07-BB"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_051744.jpg",
+    "type": "image",
+    "id": 17
+  },
+  {
+    "question": "Quelle méthode de transmission de trames reçoit la trame dans sa totalité et vérifie s’il existe des erreurs à l’aide d’un contrôle CRC avant de transmettre la trame ?",
+    "answers": [
+      "Commutation Fragment-Free",
+      "Commutation Cut-Through",
+      "Commutation Store-and-Forward",
+      "Commutation Fast-Forward"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 18
+  },
+  {
+    "question": "Quel est l’objectif du champ FCS dans une trame ?",
+    "answers": [
+      "Vérifier l’adresse logique du nœud expéditeur",
+      "Déterminer si des erreurs se sont produites lors de la transmission et de la réception",
+      "Calculer l’en-tête CRC pour le champ de données",
+      "Obtenir l’adresse MAC du nœud expéditeur"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 19
+  },
+  {
+    "question": "Quel est l’avantage de la méthode de commutation après stockage et retransmission par rapport à la méthode de commutation cut-through ?",
+    "answers": [
+      "Vérification des erreurs de trame",
+      "Transmission rapide des trames",
+      "Détection des collisions",
+      "Transmission de trames grâce aux informations IPv4 des couches 3 et 4"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 20
+  },
+  {
+    "question": "Lorsque la méthode de commutation store-and-forward est utilisée, quelle partie de la trame Ethernet permet de détecter les erreurs ?",
+    "answers": [
+      "L’adresse MAC source dans l’en-tête",
+      "L’adresse MAC de destination dans l’en-tête",
+      "La partie CRC dans la queue de bande",
+      "Le type de protocole dans l’en-tête"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 21
+  },
+  {
+    "question": "Quelle méthode de commutation utilise la valeur CRC dans une trame ?",
+    "answers": [
+      "Fast-Forward",
+      "Fragment-Free",
+      "Cut-Through",
+      "Store-and-Forward"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 22
+  },
+  {
+    "question": "Quelles sont les deux actions effectuées par un commutateur Cisco ? (Choisissez deux propositions.)",
+    "answers": [
+      "Utilisation de la table d’adressage MAC pour transférer des trames via l’adresse MAC de destination",
+      "Utilisation des adresses MAC sources des trames pour construire et conserver une table d’adressage MAC",
+      "Construction d’une table de routage basée sur la première adresse IP de l’en-tête de trame",
+      "Examen de l’adresse MAC de destination pour ajouter de nouvelles entrées à la table d’adresses MAC",
+      "Transfert des trames dotées d’adresses IP de destination inconnues sur la passerelle par défaut"
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 23
+  },
+  {
+    "question": "Quelles propositions décrivent les caractéristiques et les fonctions de la sous-couche de contrôle de liaison logique dans les normes Ethernet ? (Choisissez deux propositions.)",
+    "answers": [
+      "La sous-couche LLC ajoute un en-tête et une queue de bande aux données.",
+      "La sous-couche LLC est encadrée par la norme IEEE 802.3.",
+      "La sous-couche de contrôle de liaison logique est responsable du positionnement et de la récupération des trames sur les supports.",
+      "La couche liaison de données utilise le contrôle de liaison logique pour communiquer avec les couches supérieures de la suite de protocoles.",
+      "Le contrôle de liaison logique est implémenté dans le logiciel."
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 24
+  },
+  {
+    "question": "Quel avantage présente l’utilisation de la méthode de commutation à la volée (« cut-through ») par rapport à la méthode de stockage et retransmission ?",
+    "answers": [
+      "Elle apporte la flexibilité nécessaire pour prendre en charge toutes les combinaisons de débits Ethernet.",
+      "Elle présente une latence plus faible, appropriée pour les applications de calcul haute performance.",
+      "Elle prend rapidement les décisions relatives à la transmission, en se basant sur l’adresse MAC source de la trame.",
+      "Elle a une incidence positive sur la bande passante, en rejetant la plupart des trames non valides."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 25
+  },
+  {
+    "question": "Qu’est-ce qu’une adresse MAC de multidiffusion ?",
+    "answers": [
+      "FF-FF-FF-FF-FF-FF",
+      "00-26-0F-4B-00-3E",
+      "01-00-5E-00-00-03",
+      "5C-26-0A-4B-19-3E"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 26
+  },
+  {
+    "question": "Examinez l’illustration. Quel est le problème avec le raccordement affiché ?",
+    "answers": [
+      "La longueur détorsadée de chaque fil est trop longue.",
+      "Le mauvais type de connecteur est utilisé.",
+      "Les câbles sont trop épais pour le connecteur utilisé.",
+      "Le treillis de cuivre n’aurait pas dû être retiré."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_114901.jpg",
+    "type": "image",
+    "id": 27
+  },
+  {
+    "question": "Examinez l’illustration. Le PC est connecté au port de console du commutateur. Toutes les autres connexions sont établies via des liens FastEthernet. Quels types de câbles à paires torsadées non blindées peuvent être utilisés pour connecter les périphériques ?",
+    "answers": [
+      "1 – renversement, 2 – croisement, 3 – droit",
+      "1 – renversement, 2 – droit, 3 – croisement",
+      "1 – croisement, 2 – droit, 3 – renversement",
+      "1 – croisement, 2 – renversement, 3 – direct"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_114941.jpg",
+    "type": "image",
+    "id": 28
+  },
+  {
+    "question": "Que signifie le terme «atténuation» dans la communication de données?",
+    "answers": [
+      "temps pour qu’un signal atteigne sa destination",
+      "fuite de signaux d’une paire de câbles à une autre",
+      "renforcement d’un signal par un dispositif de mise en réseau",
+      "perte de puissance du signal à mesure que la distance augmente"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 29
+  },
+  {
+    "question": "Qu’est-ce qui rend la fibre préférable au câblage en cuivre pour l’interconnexion des immeubles ? (Choisissez trois réponses.)",
+    "answers": [
+      "réduction des coûts d’installation",
+      "plus grand potentiel de bande passante",
+      "sensibilité limitée aux IEM/RFI",
+      "distances plus grandes par câble",
+      "se termine facilement",
+      "connexions durables"
+    ],
+    "correctAnswers": [
+      1,
+      2,
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 30
+  },
+  {
+    "question": "Quel terme de couche physique OSI décrit la mesure des données utilisables transférées sur une période de temps donnée ?",
+    "answers": [
+      "câble en cuivre",
+      "débit applicatif",
+      "câble à fibre optique",
+      "Transport aérien"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 31
+  },
+  {
+    "question": "Quelles sont les deux fonctions exécutées sur la sous-couche MAC de la couche de liaison de données OSI? (Choisissez deux réponses.)",
+    "answers": [
+      "Ajoute des informations de contrôle de couche 2 aux données du protocole réseau.",
+      "Contrôle la carte réseau responsable de l’envoi et de la réception des données sur le support physique.",
+      "Place les informations dans la trame qui indique le protocole de couche réseau utilisé pour la trame.",
+      "Communique entre le logiciel de mise en réseau sur les couches supérieures et le matériel du périphérique sur les couches inférieures.",
+      "Fournit un mécanisme permettant à plusieurs périphériques de communiquer sur un support partagé."
+    ],
+    "correctAnswers": [
+      1,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 32
+  },
+  {
+    "question": "Case 2:",
+    "answers": [
+      "Fournit la synchronisation entre les nœuds source et cible.",
+      "Communique entre le logiciel de mise en réseau sur les couches supérieures et le matériel du périphérique sur les couches inférieures.",
+      "Ajoute des informations de contrôle de couche 2 aux données du protocole réseau.",
+      "Intègre plusieurs technologies physiques.",
+      "Permet à IPv4 et IPv6 d’utiliser la même interface réseau et le même support."
+    ],
+    "correctAnswers": [
+      0,
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 33
+  },
+  {
+    "question": "Case 3:",
+    "answers": [
+      "Communique entre le logiciel de mise en réseau sur les couches supérieures et le matériel du périphérique sur les couches inférieures.",
+      "Intègre plusieurs technologies physiques.",
+      "Ajoute des informations de contrôle de couche 2 aux données du protocole réseau.",
+      "Place les informations dans la trame qui indique le protocole de couche réseau utilisé pour la trame.",
+      "Contrôle la carte réseau responsable de l’envoi et de la réception des données sur le support physique."
+    ],
+    "correctAnswers": [
+      1,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 34
+  },
+  {
+    "question": "Case 4:",
+    "answers": [
+      "Ajoute des informations de contrôle de couche 2 aux données du protocole réseau.",
+      "Place les informations dans la trame qui indique le protocole de couche réseau utilisé pour la trame.",
+      "Met en place une queue de bande pour détecter les erreurs de transmission.",
+      "Fournit la synchronisation entre les nœuds source et cible.",
+      "Permet à IPv4 et IPv6 d’utiliser la même interface réseau et le même support."
+    ],
+    "correctAnswers": [
+      2,
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 35
+  },
+  {
+    "question": "Quelle action se produira si un commutateur reçoit une trame et possède l’adresse MAC source dans la table MAC?",
+    "answers": [
+      "Le commutateur actualise la minuterie sur cette entrée.",
+      "Le commutateur partage l’entrée de la table d’adresses MAC avec tous les commutateurs connectés.",
+      "Le commutateur n’avance pas la trame.",
+      "Le commutateur l’ajoute à sa table d’adresses MAC associée au numéro de port."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 36
+  },
+  {
+    "question": "Un administrateur réseau mesure le transfert de bits sur le réseau fédérateur d’une entreprise pour une application financière stratégique. Il remarque que le débit du réseau est inférieur à la bande passante attendue. Quels facteurs peuvent avoir une influence sur les différences de débit ? (Choisissez trois propositions.)",
+    "answers": [
+      "La quantité de trafic acheminée sur le réseau actuellement",
+      "La complexité de la méthode d’encapsulation appliquée aux données",
+      "Le type de trafic acheminé sur le réseau actuellement",
+      "La latence créée par le nombre de périphériques réseau que les données traversent",
+      "La bande passante de la connexion du réseau étendu à Internet",
+      "La fiabilité de l’infrastructure Gigabit Ethernet du réseau fédérateur"
+    ],
+    "correctAnswers": [
+      0,
+      2,
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 37
+  },
+  {
+    "question": "Quel est le rôle principal de la couche physique dans la transmission des données sur le réseau?",
+    "answers": [
+      "Contrôle d’accès au support",
+      "créer les signaux qui représentent les bits de chaque image sur le support",
+      "Détermine le meilleur chemin à travers le réseau",
+      "fournir un adressage physique aux périphériques"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 38
+  },
+  {
+    "question": "À quoi sert la valeur CRC qui figure dans le champ FCS d’une trame ?",
+    "answers": [
+      "À calculer l’en-tête checksum pour le champ de données dans la trame",
+      "À vérifier l’adresse physique dans la trame",
+      "À vérifier l’adresse logique dans la trame",
+      "À vérifier l’intégrité de la trame reçue"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 39
+  },
+  {
+    "question": "Quelle proposition décrit une caractéristique des champs d’en-tête de trame de la couche liaison de données ?",
+    "answers": [
+      "Ils incluent tous les champs de contrôle de flux et de connexion logique.",
+      "Ils comprennent des informations sur les applications des utilisateur.",
+      "Ils varient selon les protocoles.",
+      "Les champs d’en-tête de trame Ethernet contiennent des adresses source et de destination de couche 3."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 40
+  },
+  {
+    "question": "Quels sont les deux champs ou fonctionnalités Ethernet examine-t-il pour déterminer si une trame reçue est transmise à la couche de liaison de données ou ignorée par la carte réseau? (Choisissez deux réponses.)",
+    "answers": [
+      "auto-MDIX",
+      "Adresse MAC d’origine",
+      "taille minimale de trame",
+      "Séquence de contrôle de trame",
+      "CEF"
+    ],
+    "correctAnswers": [
+      2,
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 41
+  },
+  {
+    "question": "Lors du processus d’encapsulation, que se passe-t-il au niveau de la couche liaison de données pour un ordinateur connecté à une interface Ethernet ?",
+    "answers": [
+      "L’adresse logique est ajoutée.",
+      "Une adresse IP est ajoutée.",
+      "L’adresse physique est ajoutée.",
+      "Le numéro de port du processus est ajouté."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 42
+  },
+  {
+    "question": "Un commutateur de couche 2 est utilisé pour faire passer les trames entrantes d’un port 1000BASE-T à un port connecté à un réseau 100Base-T. Quelle méthode de mise en mémoire tampon est la plus appropriée pour cette tâche ?",
+    "answers": [
+      "Mise en mémoire tampon partagée",
+      "Mise en mémoire tampon de configuration fixe",
+      "Mise en mémoire cache de niveau 1",
+      "Mise en mémoire tampon axée sur les ports"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 43
+  },
+  {
+    "question": "Quels sont deux exemples de la méthode cut-through de commutation ? (Choisissez deux propositions.)",
+    "answers": [
+      "Commutation Fast-Forward",
+      "Commutation QOS",
+      "Commutation Fragment-Free",
+      "Commutation Store-and-Forward",
+      "Commutation CRC"
+    ],
+    "correctAnswers": [
+      0,
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 44
+  },
+  {
+    "question": "Quelle méthode de commutation offre le niveau de latence le plus faible ?",
+    "answers": [
+      "Store-and-Forward",
+      "Cut-Through",
+      "Fragment-Free",
+      "Fast-Forward"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 45
+  },
+  {
+    "question": "Un administrateur réseau connecte deux commutateurs modernes à l’aide d’un câble droit. Les commutateurs sont nouveaux et n’ont jamais été configurés. Quelles propositions relatives au résultat final de la connexion sont exactes ? (Choisissez trois réponses.)",
+    "answers": [
+      "La liaison entre les commutateurs peut disposer du débit le plus rapide pris en charge par les deux commutateurs.",
+      "La fonction bidirectionnelle doit être configurée manuellement car elle ne peut pas être négociée.",
+      "La liaison entre les commutateurs fonctionne en mode bidirectionnel simultané.",
+      "Si les deux commutateurs prennent en charge différents débits, ils fonctionneront à leur débit le plus rapide.",
+      "La connexion n’est pas possible sauf si l’administrateur modifie le câble pour un câble de croisement.",
+      "La fonction auto-MDIX configure les interfaces, ce qui élimine la nécessité d’utiliser un câble de croisement."
+    ],
+    "correctAnswers": [
+      0,
+      2,
+      5
+    ],
+    "image": null,
+    "type": "text",
+    "id": 46
+  },
+  {
+    "question": "Quel terme de couche physique OSI décrit le processus par lequel une onde modifie une autre onde?",
+    "answers": [
+      "Modulation",
+      "EIA/TIA",
+      "Transport aérien",
+      "IEEE"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 47
+  },
+  {
+    "question": "Quelle action se produira si un commutateur reçoit une trame avec l’adresse MAC de destination FF:FF:FF:FF:FF:FF?",
+    "answers": [
+      "Le commutateur n’avance pas la trame.",
+      "Le commutateur transmet tous les ports à l’exception du port d’entrée.",
+      "Le commutateur actualise la minuterie sur cette entrée.",
+      "Le commutateur envoie la trame à un routeur connecté car l’adresse MAC de destination n’est pas locale."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 48
+  },
+  {
+    "question": "Quel terme de couche physique OSI décrit la capacité à laquelle un support peut transporter des données?",
+    "answers": [
+      "IEEE",
+      "EIA/TIA",
+      "bande passante",
+      "Transport aérien"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 49
+  },
+  {
+    "question": "Quelle action se produira si un hôte reçoit une trame avec une adresse MAC de destination FF:FF:FF:FF:FF:FF?",
+    "answers": [
+      "L’hôte envoie la trame au commutateur pour mettre à jour la table d’adresses MAC.",
+      "L’hôte transmet la trame au routeur.",
+      "L’hôte traitera la trame.",
+      "L’hôte transmet la trame au routeur."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 50
+  },
+  {
+    "question": "Quelle déclaration est vraie sur la méthode d’accès CSMA/CD utilisée dans Ethernet?",
+    "answers": [
+      "Un signal de brouillage provoque uniquement l’exécution d’un algorithme de backoff par les périphériques qui ont provoqué la collision.",
+      "Lorsqu’un dispositif entend un signal porteur et transmet, une collision ne peut pas se produire.",
+      "Tous les périphériques réseau doivent écouter avant de transmettre.",
+      "Les dispositifs impliqués dans une collision obtiennent la priorité à transmettre après la période de retour en arrière."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 51
+  },
+  {
+    "question": "Reportez-vous au graphique. Quel type de câblage est-il affiché?",
+    "answers": [
+      "STP",
+      "UTP",
+      "Câblage coaxial",
+      "Fibre optique"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-28_081812.png",
+    "type": "image",
+    "id": 52
+  },
+  {
+    "question": "Quels sont les trois éléments contenus dans un en-tête Ethernet et une queue de bande? (Choisissez trois propositions.)",
+    "answers": [
+      "informations de vérification des erreurs",
+      "L’adresse IP source",
+      "L’adresse MAC d’origine",
+      "L’adresse IP de destination",
+      "Adresse MAC de destination"
+    ],
+    "correctAnswers": [
+      0,
+      2,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 53
+  },
+  {
+    "question": "Quelle est la fonction Auto-MDIX ?",
+    "answers": [
+      "Il permet à un appareil de configurer automatiquement une interface pour utiliser un câble direct ou un câble croisé.",
+      "Il permet à un périphérique de configurer automatiquement les paramètres duplex d’un segment.",
+      "Il permet à un appareil de configurer automatiquement la vitesse de son interface.",
+      "Il permet à un commutateur de sélectionner dynamiquement la méthode de transfert."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "image": null,
+    "type": "text",
+    "id": 54
+  },
+  {
+    "question": "Quel terme de couche physique OSI décrit le milieu physique qui utilise la propagation de la lumière?",
+    "answers": [
+      "débit applicatif",
+      "latence",
+      "câble à fibre optique",
+      "débit"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 55
+  },
+  {
+    "question": "Quelles sont les deux fonctions exécutées sur la sous-couche LLC de la couche de liaison de données OSI? (Choisissez deux réponses.)",
+    "answers": [
+      "Fournit la synchronisation entre les nœuds source et cible.",
+      "Met en place une queue de bande pour détecter les erreurs de transmission.",
+      "Intègre plusieurs technologies physiques.",
+      "Ajoute des informations de contrôle de couche 2 aux données du protocole réseau.",
+      "Permet à IPv4 et IPv6 d’utiliser la même interface réseau et le même support."
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "image": null,
+    "type": "text",
+    "id": 56
+  },
+  {
+    "question": "Quelle action se produira si un commutateur reçoit une trame avec l’adresse MAC de destination 01:00:5 E: 00:00:D9?",
+    "answers": [
+      "Le commutateur partage l’entrée de la table d’adresses MAC avec tous les commutateurs connectés.",
+      "Le commutateur n’avance pas la trame.",
+      "Le commutateur transmet tous les ports à l’exception du port d’entrée.",
+      "Le commutateur envoie la trame à un routeur connecté car l’adresse MAC de destination n’est pas locale."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "image": null,
+    "type": "text",
+    "id": 57
+  },
+  {
+    "question": "Quel terme de couche physique OSI décrit la mesure du transfert de bits sur un milieu sur une période donnée ?",
+    "answers": [
+      "débit applicatif",
+      "débit",
+      "bande passante",
+      "latence"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "image": null,
+    "type": "text",
+    "id": 58
+  },
+  {
+    "question": "Quelles sont les deux fonctions d’exécution sur la sous-couche LLC de la couche de liaison de données OSI? (Choisissez deux réponses.)",
+    "answers": [
+      "Place les informations dans la trame qui indique le protocole de couche réseau utilisé pour la trame.",
+      "Met en œuvre un processus de délimitation des champs dans une trame de la couche 2.",
+      "Intègre plusieurs technologies physiques.",
+      "Permet à IPv4 et IPv6 d’utiliser la même interface réseau et le même support.",
+      "Contrôle la carte réseau responsable de l’envoi et de la réception des données sur le support physique."
+    ],
+    "correctAnswers": [
+      0,
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 59
+  },
+  {
+    "question": "Case 2:",
+    "answers": [
+      "Fournit la synchronisation entre les nœuds source et cible.",
+      "Ajoute des informations de contrôle de couche 2 aux données du protocole réseau.",
+      "Met en place une queue de bande pour détecter les erreurs de transmission.",
+      "Permet à IPv4 et IPv6 d’utiliser la même interface réseau et le même support.",
+      "Fournir l’adressage pour la couche liaison de données"
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 60
+  },
+  {
+    "question": "Quelle action se produira si un hôte reçoit une trame avec une adresse MAC de destination qu’il ne reconnaît pas?",
+    "answers": [
+      "L’hôte transmet la trame au routeur.",
+      "L’hôte transmet la trame à tous les autres hôtes.",
+      "L’hôte envoie la trame au commutateur pour mettre à jour la table d’adresses MAC.",
+      "Le commutateur ignore la trame."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 61
+  },
+  {
+    "question": "Quel terme de couche physique OSI décrit le milieu physique qui utilise des impulsions électriques?",
+    "answers": [
+      "débit applicatif",
+      "Transport aérien",
+      "câble à fibre optique",
+      "câble en cuivre"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "image": null,
+    "type": "text",
+    "id": 62
+  }
+]
